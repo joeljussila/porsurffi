@@ -1,0 +1,65 @@
+# Single source of truth for PorSurffi 2027.
+# If an agent's answer disagrees with this file, this file wins.
+# Every value carries a `source:` — chat date, document, or "assumption".
+
+trip:
+  name: PorSurffi 2027
+  organization: PoRa / Prodeko, Aalto University
+  edition: 2  # 2026 was PoRa's first surf trip ever
+
+  destination:
+    status: UNDECIDED
+    decision_due: 2026-09-24        # "porsurffi vol 2 meet 1", 18:00-18:45 EEST
+    candidates: [bali, siargao, costa-rica, mexico, brazil, portugal]
+    notes: >
+      Sri Lanka is not currently a candidate. Portugal is weak in spring, which is why
+      2026 went to Sri Lanka. Bali is the informal frontrunner on cheap fares spotted
+      2026-09-03, unconfirmed.
+    source: organizer chat 2026-09-17
+
+  dates:
+    status: LEANING
+    window: early May 2027
+    alternatives: [after period III exam week]
+    source: organizer chat 2026-07-12
+
+  headcount:
+    target: 30
+    organizers: 6
+    participant_places: 24
+    note: 2026 targeted 30 and landed 25. Filling the last five seats is an explicit goal.
+    source: Joel 2026-09-21
+
+  budget:
+    all_in_per_participant: null    # UNDECIDED
+    reference_2026: "1150-1250 EUR"
+    flight_estimate_2027:
+      individual: "850-900 EUR incl. bags (640 EUR + 20% risk premium)"
+      group_fare: "700-780 EUR for 30 seats, unquoted"
+      source: organizer chat 2026-09-17
+    funding:
+      prodeko_loan_2026: "20000 EUR, 3-month term"
+      source: organizer chat 2025-12-02
+
+organizers:                          # from the 2026-09-24 calendar invite
+  - {name: Joel Jussila,       role: lead}
+  - {name: Pekka Prieur,       role: finance}
+  - {name: Oona Jokela,        role: communications}
+  - {name: Viljami Meriläinen, role: sourcing / vendors}
+  - {name: Lauri Pörsti,       role: production / promo video}
+  - {name: Julia Heikkilä,     role: joined 2026-09-18, 2026 participant}
+  # Meri Halme: 2026 organizer, not on the 2027 invite, finances unconfirmed
+
+workstreams:
+  destination:   {owner: all,     status: blocked_on_decision, due: 2026-09-24}
+  promo_video:   {owner: Lauri,   status: in_progress,         due: 2026-10-01}
+  marketing:     {owner: Oona,    status: not_started,         due: 2026-10-01}
+  signup_queue:  {owner: Joel,    status: not_started,         due: "October 2026"}
+  group_fares:   {owner: Pekka,   status: awaiting_reply,      note: emailed a carrier group desk}
+  surf_camp:     {owner: Viljami, status: not_started}
+
+timeline_2026_for_reference:         # the pace that worked; see docs/2026-baseline.md
+  announcement:   2025-11-13
+  queue_closed:   2025-12-05
+  flights_booked: 2025-12-09
+  departure:      2026-05-04

@@ -1,0 +1,15 @@
+# Raw Telegram exports: contain a personal IBAN, door codes and 25 participants' full names.
+# Never commit these. Share the redacted digests in docs/ instead.
+data/telegram/*.json
+out/*.messages.jsonl
+
+# Generated digests are rebuildable; keep the repo clean.
+out/*.digest.md
+
+# Anything explicitly marked private
+data/private/
+*.private.md
+
+.DS_Store
+Thumbs.db
+__pycache__/
