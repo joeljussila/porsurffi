@@ -10,18 +10,45 @@ trip:
   destination:
     status: UNDECIDED
     decision_due: 2026-09-24        # "porsurffi vol 2 meet 1", 18:00-18:45 EEST
-    candidates: [bali, siargao, costa-rica, mexico, brazil, portugal]
-    notes: >
-      Sri Lanka is not currently a candidate. Portugal is weak in spring, which is why
-      2026 went to Sri Lanka. Bali is the informal frontrunner on cheap fares spotted
-      2026-09-03, unconfirmed.
-    source: organizer chat 2026-09-17
+    analysis: docs/2027-destination-analysis.md
+    recommended_shortlist: [el-salvador, lombok]
+    fallback: nicaragua
+    eliminated:
+      siargao:  "May is flat — Mar-Jun onshore SW monsoon, unsurfable ~80% of days"
+      brazil:   "NE peaks Dec-Mar; May is shoulder + tail of the rainy season"
+      morocco:  "May is the END of the season; Jun-Sep often flat. Too soft for this group"
+      portugal: "excluded by Joel; also weak in spring"
+      sri-lanka: "excluded by Joel — not repeating 2026"
+    still_open: [costa-rica, mexico, bali, peru, panama]
+    source: analysis 2026-09-21; candidate list from organizer chat 2026-09-17
 
   dates:
-    status: LEANING
-    window: early May 2027
-    alternatives: [after period III exam week]
-    source: organizer chat 2026-07-12
+    status: FLEXIBLE_BY_DESIGN
+    depart_window: {earliest: 2027-05-03, latest: 2027-05-10}
+    trip_length_days: {min: 9, max: 12}
+    note: Dates are deliberately unlocked so flight price can drive them.
+    source: Joel 2026-09-21
+
+  surf_level:
+    range_sessions: {min: 0, max: 50}
+    average_sessions: 7
+    requirement: >
+      Not beginner-only mush. Waves need size and push but must not be harsh.
+      Arugam Bay 2026 was described as optimal — a long, sand-bottomed point break.
+      Sand bottom is strongly preferred over reef at this level.
+    source: Joel 2026-09-21
+
+  requirements:
+    single_supplier: >
+      Strongly preferred: accommodation AND surf lessons from the same surf camp,
+      with instructors available throughout the trip, including coaching for the
+      more experienced so they progress too.
+    camp_criteria: >
+      Not the most obvious or commercialised operator. Genuine high ratings.
+      Locally run is a plus. Must not be a scam. If nothing suitable exists,
+      list every option so the team can vet manually.
+    all_participants_18_plus: true
+    source: Joel 2026-09-21
 
   headcount:
     target: 30

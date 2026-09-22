@@ -24,12 +24,33 @@ From the organizer chat, 2026-09-17:
 | **Portugal** | Pekka: "aina safe". Joel: weak in spring — this is precisely why 2026 chose Sri Lanka. |
 | *Sri Lanka* | **Not currently a candidate.** Not on the option list; included here only because it is the known quantity with real cost data. |
 
-## What has to be true to decide
+## Analysis, 2026-09-21
 
-Not yet gathered. For each candidate: flight cost and routing from Helsinki in the travel
-window; beginner surf conditions in May; all-in ground cost for ~8 nights at 30 people; visa
-cost for Finnish passports; safety verdict; whether one supplier can do both accommodation and
-surf, as Arugam Bay did in 2026.
+Full workup in [`docs/2027-destination-analysis.md`](../docs/2027-destination-analysis.md).
+
+**Eliminated on May conditions:** Siargao (flat — Mar–Jun onshore monsoon, unsurfable ~80% of
+days), Brazil NE (peaks Dec–Mar, May is shoulder plus rainy tail), Morocco (May is season's
+end), Portugal (excluded, and weak in spring).
+
+**Recommended shortlist: El Salvador and Lombok.**
+
+- *El Salvador* — May is the season **opening**. Las Flores is a ~300 m right-hand point over
+  **sand, no reef**, explicitly suited to beginner+intermediate. Structurally the same wave that
+  made Arugam Bay work. Open question: Las Flores Surf Club caps surf passes at **20 per week**
+  and the group is 30.
+- *Lombok (Gerupuk)* — five breaks in one bay spanning beginner to intermediate, which handles a
+  0–50 session spread better than anywhere else considered. Cheapest long-haul from Helsinki.
+  Indonesia without being Bali.
+
+**Fallback:** Nicaragua (Popoyo) — same swell window, near-daily offshore mornings thanks to the
+Lake Nicaragua effect, more camp capacity, but reef rather than sand.
+
+**Key tension:** cheapest flights point to Indonesia; best May waves for this skill level point
+to Central America. That trade-off is the actual decision.
+
+**Flight caveat:** May 2027 is ~8 months out and **bookable now** — pull real fares rather than
+argue from averages. Also, many cheap Central America itineraries transit the US, which requires
+an **ESTA per person** for Finnish passports; prefer Madrid, Bogotá or Panama routings.
 
 ## Open threads
 
