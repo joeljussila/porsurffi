@@ -11,6 +11,7 @@ trip:
     status: UNDECIDED
     decision_due: 2026-09-24        # "porsurffi vol 2 meet 1", 18:00-18:45 EEST
     analysis: docs/2027-destination-analysis.md
+    ranking: docs/2027-destination-ranking.md   # scored, all options, with price ranges
     recommended_shortlist: [el-salvador, lombok]
     fallback: nicaragua
     eliminated:
@@ -37,6 +38,19 @@ trip:
       Arugam Bay 2026 was described as optimal — a long, sand-bottomed point break.
       Sand bottom is strongly preferred over reef at this level.
     source: Joel 2026-09-21
+
+  cost_basis:
+    included_in_estimates: [return flights from HEL incl. 23kg checked bag, surf camp accommodation + lessons]
+    excluded: [food beyond camp inclusions, visas, local transfers, merch, program, contingency]
+    note: >
+      Retail per-person rates are NOT what a 30-person block pays. 2026's camp cost
+      370 USD ~= EUR 310 for 8 nights (~EUR 39/night), far below any advertised rate.
+      Expect 20-40% off retail when negotiating. Always ask for the group rate.
+    baggage: >
+      Everyone needs 23-30kg checked, not carry-on, on a 9-12 day trip. Compare landed
+      cost with bags included. Turkish/Qatar/Emirates/Finnair include it; verify Juneyao
+      and other low-cost long-haul fare classes.
+    source: Joel 2026-09-21 + research
 
   requirements:
     single_supplier: >
