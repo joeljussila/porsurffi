@@ -36,12 +36,19 @@ transfers, merch, program.
 | 2 | **Lombok** | 8 | 8 | 6 | 9 | 8 | **7.7** | €1200–1800 |
 | 3 | **Nicaragua** | 8 | 8 | 8 | 8 | 4 | **7.6** | €1200–1900 |
 | 4 | **El Salvador** | 9 | 6 | 6 | 8 | 5 | **7.2** | €1300–2050 |
-| 5 | **Costa Rica** | 8 | 4 | 7 | 9 | 6 | **6.7** | €1600–2500 |
-| 6 | *Morocco* | 4 | 9 | 7 | 7 | 9 | **6.7** | €700–1200 |
-| 7 | **Mexico** | 7 | 6 | 6 | 7 | 5 | **6.4** | €1300–2000 |
-| 8 | **Peru** | 7 | 7 | 4 | 6 | 4 | **6.0** | €1300–1950 |
-| — | *Brazil* | 3 | 6 | 6 | 8 | 5 | **4.9** | — |
-| — | *Siargao* | **1** | 7 | 6 | 8 | 6 | **4.1** | — |
+| 5 | **Rio de Janeiro** | 7 | 6 | 6 | **10** | 6 | **6.8** | €1300–2100 |
+| 6 | **Costa Rica** | 8 | 4 | 7 | 9 | 6 | **6.7** | €1600–2500 |
+| 6= | *Morocco* | 4 | 9 | 7 | 7 | 9 | **6.7** | €700–1200 |
+| 8 | **Java (Batu Karas)** | 7 | 8 | 5 | 7 | 5 | **6.7** | €1050–1650 |
+| 9 | **Guatemala** | 6 | 8 | 5 | 9 | 4 | **6.4** | €1150–1800 |
+| 9= | **Mexico** | 7 | 6 | 6 | 7 | 5 | **6.4** | €1300–2000 |
+| 11 | **Siargao** | 5 | 7 | 6 | 8 | 6 | **6.1** | €1150–1800 |
+| 12 | **Peru** | 7 | 7 | 4 | 6 | 4 | **6.0** | €1300–1950 |
+| — | *Brazil NE (Pipa/Itacaré)* | 3 | 6 | 6 | 8 | 5 | **4.9** | — |
+
+*Revised 2026-09-21 after a second pass. Siargao was previously scored 1/10 on waves and
+eliminated; that was too absolute — see the correction below. Rio, Guatemala and Java were
+missing entirely.*
 
 ### What the ranking actually says
 
@@ -260,6 +267,132 @@ is a **family-run** hostel with meals, accommodation, lessons and gear included 
 nearby — exactly the local operation you described wanting, and almost certainly unable to hold 30.
 Also [Wayra Surf Camp](https://www.booksurfcamps.com/wayra-surf-camp/8-days-functional-training-yoga-and-surf-camp-lobitos-peru)
 and [Lobitos Surf Academy](https://lobitosperusurf.com/).
+
+---
+
+## Correction: Siargao was judged too harshly
+
+The first pass eliminated Siargao on a single source saying **March–June is flat at Cloud 9, SW
+monsoon onshore, unsurfable ~80% of days**. That statement is accurate — **but it is about Cloud
+9 and the west-facing breaks specifically, not the island.**
+
+A second pass gives a more nuanced picture
+([Fat Lips seasonal guide](https://www.surfsiargao.com/surf-articles/2024/3/11/fat-lips-guide-to-surfing-by-season-in-siargao) ·
+[Surf Atlas](https://thesurfatlas.com/surfing-in-philippines/siargao-surfing/) ·
+[Kawayan Villa](https://kawayanvillasiargao.com/blog-best-time-to-visit-siargao.html)):
+
+- **April and May get S swell** that makes breaks like **Daku** work "really nicely"
+- Spring delivers "nice, clean, **waist to head high** waves for a couple of months" before things
+  die down in **June**
+- There is an **east-coast beach break that works March–June** precisely because it faces east and
+  picks up SW monsoon wind swell
+- March–May also brings calm seas, clear water and full visibility
+
+**Revised verdict: not eliminated, but not recommended.** Waves score 5/10, not 1/10. The honest
+framing is **high variance**: you'd be going to Siargao in the month its famous wave doesn't work,
+relying on secondary breaks. Waist-to-head-high and clean is genuinely fine for your group — the
+risk is that it's inconsistent, and you can't tell 30 people mid-trip that the surf didn't show.
+For a trip where 24 students have paid over €1000, that variance is the objection, not flatness.
+
+---
+
+## Round 2: the three that were missing
+
+### Rio de Janeiro — score 6.8, est. €1300–2100
+
+**I had looked at "Brazil" as the northeast (Pipa, Itacaré) plus Florianópolis, and never
+separately at Rio.** That was a gap, and Rio scores better than either.
+
+**Waves (7/10).** **April–October is the ideal period** for Rio, with S and SE swells becoming
+regular and more powerful, peaking June–August — so **May is early-peak, not off-season**
+([Vialala](https://www.vialala.com/en/blog/surf-a-rio-de-janeiro) ·
+[Real Surf Travel](https://realsurftravel.com/surfing-in-rio/)).
+
+- **Barra da Tijuca** — long, open beach break, well suited to beginners and longboarders, "less
+  dramatic than Prainha, more forgiving". A genuinely good base for a mixed group.
+- **Saquarema** (~2 h east) — powerful, 4–10 ft in peak season. Itaúna gets intense, but the
+  **Barra Nova river-mouth sandbars** give more consistent, shapely peaks for intermediates, and
+  the **town beach by the lagoon entrance is the most sheltered, beginner-appropriate spot**
+  ([Surf-Forecast](https://www.surf-forecast.com/breaks/Saquarema) ·
+  [Surf Snaps](https://surf-snaps.com/blog/31/surf-travel-guide-saquarema))
+
+⚠️ **Water is 22–26 °C — a 2 mm springsuit or long-sleeve top is ideal.** Not a full wetsuit trip
+like Peru, but not boardshorts-only either. Budget a thin suit for anyone who feels the cold.
+
+**Activities (10/10) — the best on the entire list.** Christ the Redeemer, Sugarloaf, Ipanema,
+Ilha Grande, Paraty, Búzios. If "things to do beyond surfing" matters, nothing else is close.
+
+**Group (6/10) — the real weakness.** Rio is a city, not a surf village. You'd be booking
+accommodation and surf school **separately**, which breaks your single-supplier requirement and
+adds coordination. It also isn't the remote-village experience Arugam Bay was.
+
+**Flights (6/10).** Decent European connections (Lisbon, Madrid, Paris) and **no US transit**, so
+no ESTA problem.
+
+### Java, Batu Karas — score 6.7, est. €1050–1650
+
+The most genuinely non-obvious option on the list, and the cheapest after Morocco.
+
+**Waves (7/10).** **The Point is a long, soft right-hand wave in a protected bay breaking over
+several hundred metres**, letting learners spend real time on their feet. **Dry season runs
+May–October** and the south Java coast picks up consistent SW and S groundswell April–October
+([Surf Atlas](https://thesurfatlas.com/surfing-indonesia/batu-karas-surf/) ·
+[Suay Hype](https://suayhype.com/surf-spots/batu-karas/)). Described as "a mellow, uncrowded
+antidote to Bali".
+
+⚠️ **The risk is the opposite of everywhere else: it may be too mellow.** Batu Karas is
+beginner-optimal. Your stronger surfers — the ones with 30–50 sessions — could be bored by day
+four. Crowds at BK Point are also reportedly growing, so dawn starts.
+
+**Group (5/10).** Small fishing village, small operators. Thirty people is a lot for it.
+
+**Flights (5/10).** Jakarta or Bandung, then a long overland transfer to the south coast. More
+travel friction than Bali or Lombok for a cheaper, quieter trip.
+
+### Guatemala, El Paredón — score 6.4, est. €1150–1800
+
+**Waves (6/10).** **May starts the bigger season** — rainy season brings bigger, more consistent
+swell, **head-high plus from May to October**
+([Perfect Wave Travel](https://www.perfectwavetravel.com/guatemala-surf-guide/) ·
+[Real Surf Travel](https://realsurftravel.com/surfing-el-paredon/)). It's a **shifting sandbank
+beach break** — sand bottom, which you want — offering hollow, fast waves that change daily, and
+works anywhere from knee-high to double-overhead.
+
+⚠️ **That "hollow and fast" is the problem.** It's rated suitable for beginners *with lessons*,
+but **low tide and bigger swells suit intermediate and advanced surfers**. A head-high-plus hollow
+beach break is a different animal from a peeling point at Arugam Bay or Las Flores. For a group
+averaging 7 sessions this is the highest-consequence wave on the shortlist — more so than
+Nicaragua's reef, because a closing-out beach break punishes everyone, not just the people who
+paddle too far out.
+
+**Cost (8/10).** Very cheap and genuinely undeveloped — the closest thing here to your
+"not commercialised, locally run" brief. Camps:
+[Paredon Surf House](https://www.paredonsurf.com/surfing_guatemala-htm/),
+[Surf Camp El Paredón 3–7 day packages](https://www.booksurfcamps.com/paredon-surf-house/3-days-surf-camp-in-el-paredon-guatemala),
+[Driftwood Surfer](https://mellowsurfhostel.com/surf-in-guatelama/),
+[El Paredón local guide](https://elparedongt.com/en/pages/surfing-in-guatemala-en).
+
+**Activities (9/10).** **Antigua**, **Lake Atitlán**, and the **Acatenango volcano overnight hike**
+— watching Fuego erupt through the night is the single most spectacular thing available on any
+option in this document. Tikal is further but reachable.
+
+**Group (5/10).** One stretch of beach, small hostels. Capacity for 30 is the open question.
+
+**Flights (4/10).** Thin routes, and most cheap options transit the US → ESTA for 30 people.
+
+---
+
+## Also considered, not scored
+
+- **Panama (Santa Catalina)** — same Pacific swell window opening in May, much less trafficked than
+  Costa Rica. Worth a call if Central America wins and El Salvador can't take 30.
+- **Sumbawa (Lakey Peak)** — dry season Apr–Oct, excellent and remote, but reef-heavy and better
+  suited to confident intermediates than a group averaging 7 sessions.
+- **Hawaii (Waikiki)** — May opens the south-shore season and Waikiki is a famously forgiving long
+  wave, but flights plus US costs put it far outside budget.
+- **Maldives** — season Mar–Oct, boat-based, too expensive for 30 students.
+- **Senegal, Cape Verde, Morocco's neighbours** — all Oct–Apr seasons. Wrong month.
+- **South Africa (J-Bay)** — Jun–Sep, and cold in May.
 
 ---
 

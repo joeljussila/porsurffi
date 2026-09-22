@@ -15,12 +15,20 @@ trip:
     recommended_shortlist: [el-salvador, lombok]
     fallback: nicaragua
     eliminated:
-      siargao:  "May is flat — Mar-Jun onshore SW monsoon, unsurfable ~80% of days"
-      brazil:   "NE peaks Dec-Mar; May is shoulder + tail of the rainy season"
-      morocco:  "May is the END of the season; Jun-Sep often flat. Too soft for this group"
-      portugal: "excluded by Joel; also weak in spring"
-      sri-lanka: "excluded by Joel — not repeating 2026"
-    still_open: [costa-rica, mexico, bali, peru, panama]
+      brazil-ne: "Pipa/Itacare peak Dec-Mar; May is shoulder + tail of the rainy season"
+      portugal:  "excluded by Joel; also weak in spring"
+      sri-lanka: "excluded by Joel - not repeating 2026"
+    not_recommended:
+      siargao: >
+        REVISED 2026-09-21. First pass eliminated this as flat; too absolute. Cloud 9 and
+        west-facing breaks are onshore Mar-Jun, but Daku and east-coast breaks pick up S
+        swell and spring gives clean waist-to-head-high. Real objection is VARIANCE, not
+        flatness - the famous wave will not be working.
+      morocco: "May is the END of the season; Jun-Sep often flat. Too soft for this group."
+      guatemala: >
+        El Paredon is a hollow, fast beach break, head-high+ from May. Sand bottom is right
+        but the wave is higher-consequence than a point break for a group averaging 7 sessions.
+    still_open: [costa-rica, mexico, bali, peru, panama, rio-de-janeiro, java-batu-karas]
     source: analysis 2026-09-21; candidate list from organizer chat 2026-09-17
 
   dates:
