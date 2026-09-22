@@ -396,6 +396,44 @@ option in this document. Tikal is further but reachable.
 
 ---
 
+## ✈️ Flight check — pre-filled searches
+
+Every link below is **Helsinki → destination, departing 2027-05-03, returning 2027-05-13**
+(10 days, mid-range of your 9–12 day window). May 2027 is bookable now, so these return real
+fares, not estimates.
+
+**Slide the dates inside the search** to cover your full window: depart **3–10 May**, return
+**12–22 May**. Skyscanner's "Whole month" view is the fastest way to find the cheap combination —
+which is the entire point of leaving the dates unlocked.
+
+| Destination | Airport | Search | Notes on the route |
+| --- | --- | --- | --- |
+| **Bali** | DPS | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/dps/270503/270513/) · [Google Flights](https://www.google.com/travel/flights?q=Flights%20from%20HEL%20to%20DPS%20on%202027-05-03%20returning%202027-05-13) | Deepest route. Juneyao cheapest — **check bag allowance**. |
+| **Lombok** | LOP | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/lop/270503/270513/) | Usually via DPS. Also price DPS + ferry/hop separately. |
+| **Nicaragua** | MGA | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/mga/270503/270513/) | Thinnest route here. Watch for US transit. |
+| **El Salvador** | SAL | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/sal/270503/270513/) | Avianca hub. Try Madrid and Bogotá routings. |
+| **Rio de Janeiro** | GIG | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/gig/270503/270513/) | Good European connections, **no US transit**. |
+| **Costa Rica** | SJO | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/sjo/270503/270513/) · [Iberia](https://www.iberia.com/us/cheap-flights/Helsinki-San-Jose-de-Costa-Rica/) | Iberia via Madrid avoids the US. |
+| **Guatemala** | GUA | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/gua/270503/270513/) | Most cheap options transit the US. |
+| **Java** | CGK | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/cgk/270503/270513/) | Jakarta, then a long overland transfer south. |
+| **Mexico (Nayarit)** | PVR | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/pvr/270503/270513/) | For Sayulita. ZIH for La Saladita. |
+| **Siargao** | IAO | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/iao/270503/270513/) | Via Manila or Cebu. Two domestic legs. |
+| **Peru** | LIM | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/lim/270503/270513/) | Then a domestic hop to Talara/Piura for Lobitos. |
+| *Morocco* | AGA | [Skyscanner](https://www.skyscanner.net/transport/flights/hel/aga/270503/270513/) | Cheapest by far. Wrong month for waves. |
+
+### When you search, record these four things
+
+Fares alone will mislead you. For each destination log:
+
+1. **Landed price with 23 kg checked baggage included** — not the headline fare
+2. **Whether it transits the US** (ESTA per person, ~$21 × 30, plus chasing approvals)
+3. **Total journey time** — a 38 h routing costs you a surfing day at each end of a 10-day trip
+4. **How many seats are bookable in one transaction** — Pekka hit a 5-seat cap on Juneyao
+
+Put the results in this file so the comparison stops being estimates.
+
+---
+
 ## Baggage — a real cost variable
 
 You're right to raise it. On a 9–12 day surf trip everyone needs **23–30 kg checked**, not
