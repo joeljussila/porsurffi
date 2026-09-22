@@ -49,3 +49,8 @@ The raw Telegram exports are gitignored. They contain a personal IBAN, a door co
 participants' full names. Keep them local.
 
 **Nothing that names a participant belongs in this repo.**
+
+## Trip principles and organizer workflow
+
+- [Trip DNA](docs/trip-dna.md) - the core promise, experience pillars, and decision filter for future trips.
+- [Organizer workflow](docs/organizer-workflow.md) - a reusable phase-by-phase playbook from defining the trip through post-trip closeout.
