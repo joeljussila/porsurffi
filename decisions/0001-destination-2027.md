@@ -60,7 +60,7 @@ an **ESTA per person** for Finnish passports; prefer Madrid, Bogotá or Panama r
 
 ## Open threads
 
-- Compare surf-camp quotes for Bali, Guatemala, and El Salvador; Viljami owns the review before the next meeting.
+- Compare surf-camp quotes for Bali, Guatemala, and El Salvador; Viljami owns the review before the next meeting. On 2026-09-24, 13 of 15 supplier enquiries were reported sent for 30 guests and 3–12 May 2027; Qi-X and Laola were not emailed. No replies or quotes had been reported. These are enquiry parameters, not a final headcount or date decision. See the [camp shortlist and outreach status](../docs/surf-camp-shortlist-may-2027.md).
 - Research destination-specific flights and checked-bag pricing; Joel owns the comparison. Individual booking was preferred over a group booking.
 - Confirm the trip cap. The September 24 meeting discussed about 20 participants plus 7 organizers; the exact cap should be confirmed before budgets or supplier commitments.
 - Confirm the calendar date for the Monday 07:00 registration opening and for the next organizer meeting before scheduling or sending communications.

@@ -118,9 +118,23 @@ workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates nee
   communications: {owner: Oona,    status: teaser_sequence_planned}
   signup_queue:   {owner: Lauri,   status: opening_planned,             due: "Monday 07:00; exact date unconfirmed"}
   group_fares:    {owner: Joel,    status: individual_bookings_preferred}
-  surf_camp:      {owner: Viljami, status: options_being_sourced,       due: "before next organizer meeting"}
+  surf_camp:      {owner: Viljami, status: quote_enquiries_sent_13_of_15, due: "review replies before next organizer meeting"}
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
+
+vendor_outreach:
+  surf_camps:
+    status: AWAITING_REPLIES
+    enquiry_basis: {guests: 30, check_in: 2027-05-03, check_out: 2027-05-12, nights: 9}
+    note: "These parameters were used for supplier quotes; headcount target and trip dates above remain provisional."
+    destinations: [guatemala, el-salvador, bali]
+    sent: 13
+    unsent: ["Qi-X / La Fábrica: no verified operator email", "Laola: no verified El Salvador email"]
+    replies: 0
+    quotes: 0
+    bookings: 0
+    detail: docs/surf-camp-shortlist-may-2027.md
+    source: "Viljami's user-supplied Gmail Sent-folder confirmation, 2026-09-24; not independently rechecked here"
 
 timeline_2026_for_reference:         # the pace that worked; see docs/2026-baseline.md
   announcement:   2025-11-13
