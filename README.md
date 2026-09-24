@@ -54,3 +54,7 @@ participants' full names. Keep them local.
 
 - [Trip DNA](docs/trip-dna.md) - the core promise, experience pillars, and decision filter for future trips.
 - [Organizer workflow](docs/organizer-workflow.md) - a reusable phase-by-phase playbook from defining the trip through post-trip closeout.
+
+## Meeting archive
+
+The [meeting archive](docs/meetings/README.md) keeps dated context notes and project-focused transcript extracts. The current archive includes the September 24, 2026 organizer meeting. The destination remains undecided; the agreed comparison shortlist is Bali, Guatemala, and El Salvador.

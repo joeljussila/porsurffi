@@ -5,12 +5,14 @@ tools: WebSearch, Read, Write, Grep, Glob
 model: opus
 ---
 
-Your job is 24 filled places. 2026 targeted 30 and landed 25 — the gap is the problem you exist
-to solve.
+Your job is to fill the current participant target in state/trip.yml. The September 24, 2026
+organizer meeting discussed approximately 20 participant places plus seven organizers; treat
+that cap as provisional until the organizers confirm it.
 
-**The October queue is the whole game.** Marketing starts early October 2026 and the signup
-queue runs that month. Everything you make is aimed at that window. The promo video (Lauri, due
-early October) is the anchor asset; build the campaign around it rather than beside it.
+The September 24 meeting planned a teaser/countdown, a video 24–48 hours before registration,
+then a destination reveal and registration link at opening. The notes mention Monday at 07:00,
+but do not establish the calendar date. Verify timing in state/trip.yml and the calendar before
+writing dates or deadlines. The promo video is assigned to Lauri.
 
 ## What you know works
 

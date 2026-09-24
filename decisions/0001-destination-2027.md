@@ -1,8 +1,14 @@
 # 0001 — Destination for PorSurffi 2027
 
 - **Status:** OPEN
-- **Decide by:** 2026-09-24 (organizer meet "porsurffi vol 2 meet 1", 18:00–18:45 EEST)
-- **Owner:** all six organizers
+- **Decide by:** next organizer meeting; the September 24 meeting said “same time next week,” but the calendar invite is pending
+- **Owner:** all organizers
+
+## Current status after the September 24 meeting
+
+The destination is still **undecided**. The organizers agreed to take **Bali, Guatemala, and El Salvador** into the final comparison. These are finalists, not a ranked recommendation. The meeting summary says the final choice is expected at the next meeting.
+
+The September 21 analysis below recommended El Salvador and Lombok. That was the best-supported research recommendation at the time; it is now superseded as the live shortlist, not erased as historical research. Guatemala was reopened despite the earlier analysis concerns. See the [meeting context](../docs/meetings/2026/2026-09-24-porsurffi-vol-2-meet-1/context.md).
 
 ## Why this is urgent
 
@@ -32,7 +38,7 @@ Full workup in [`docs/2027-destination-analysis.md`](../docs/2027-destination-an
 days), Brazil NE (peaks Dec–Mar, May is shoulder plus rainy tail), Morocco (May is season's
 end), Portugal (excluded, and weak in spring).
 
-**Recommended shortlist: El Salvador and Lombok.**
+**Recommendation as of 2026-09-21, superseded by the September 24 organizer shortlist: El Salvador and Lombok.**
 
 - *El Salvador* — May is the season **opening**. Las Flores is a ~300 m right-hand point over
   **sand, no reef**, explicitly suited to beginner+intermediate. Structurally the same wave that
@@ -54,12 +60,25 @@ an **ESTA per person** for Finnish passports; prefer Madrid, Bogotá or Panama r
 
 ## Open threads
 
-- Pekka emailed a carrier's group desk for a 30-seat quote; no reply yet as of 2026-09-19.
-- Joel's preference if no group fare: buy individually, 9 at a time, with a 20% risk premium
-  (640 € becomes 850–900 € incl. bags).
-- Viljami was asked to bring AI-researched destination options to the 2026-09-24 meet.
+- Compare surf-camp quotes for Bali, Guatemala, and El Salvador; Viljami owns the review before the next meeting.
+- Research destination-specific flights and checked-bag pricing; Joel owns the comparison. Individual booking was preferred over a group booking.
+- Confirm the trip cap. The September 24 meeting discussed about 20 participants plus 7 organizers; the exact cap should be confirmed before budgets or supplier commitments.
+- Confirm the calendar date for the Monday 07:00 registration opening and for the next organizer meeting before scheduling or sending communications.
+- Verify the roughly 780 EUR one-connection fare discussion against live itineraries, including baggage, fare class, routing, and travel dates.
+
+## Meeting evidence, 2026-09-24
+
+The Granola meeting summary records the following shortlist rationale. These are statements made in the meeting, not independently verified destination or safety findings:
+
+| Finalist | What the group discussed | What remains to check |
+| --- | --- | --- |
+| **Bali** | A familiar, attractive option if flights are materially cheaper than Central America. | Live fares, May surf conditions, camp fit, and total cost. |
+| **Guatemala** | May is in the surf season and local experience was attractive; travel time and overall cost were concerns. | Beginner suitability, camp capacity, full travel cost, and whether a Toronto connection works. |
+| **El Salvador** | Strong surf reputation and a roughly 780 EUR one-connection fare were discussed. | Current official safety guidance, live fare and baggage details, camp capacity, and beginner fit. |
+
+Other destinations were set aside in the meeting for perceived cost, surf, safety, or border-crossing concerns. Treat those as meeting notes, not final research conclusions; re-open an option only with fresh evidence and organizer agreement.
 
 ## Decision
 
-*To be filled after 2026-09-24. Record what was chosen, and why each alternative lost — that
+*To be filled after the next organizer meeting. Record what was chosen, and why each alternative lost — that
 reasoning is what next year's organizers inherit.*
