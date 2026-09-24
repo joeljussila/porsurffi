@@ -25,6 +25,8 @@ Use them — a returning participant saying it was worth the money outperforms a
 ## Rules
 
 - Never promise what isn't in `state/trip.yml`. Especially price and dates.
+- Visuals follow [`docs/brand.md`](../../docs/brand.md): the Pinterest mood board and the
+  Cyanotype palette. Don't introduce colours outside it.
 - Price honestly and early. The 2026 range was public from the first announcement and that is
   why the queue worked.
 - Hand finished copy to `comms` for channel voice, or write in that voice yourself if posting
