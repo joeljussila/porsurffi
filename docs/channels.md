@@ -6,7 +6,7 @@ official feed stayed clean because the chatter had somewhere else to go.
 | Channel | Who can post | What belongs there | Who owns it |
 | --- | --- | --- | --- |
 | **Admin** (`porsurffi🧊`) | Organizers only | Decisions, budget, vendor talk, agendas | Joel |
-| **TIEDOTUS** (announcements) | Organizers only, one-way | Payments, deadlines, schedule, logistics | Oona |
+| **TIEDOTUS** (announcements) | Organizers only, one-way | Payments, deadlines, schedule, logistics | Joel |
 | **LÖRS** (group chat) | Everyone | Free chat, questions, memes | — |
 | **Dispatch** (fun/news) | Bot + organizers | Surf report, weather, wildlife, history, trivia | `dispatch` |
 
