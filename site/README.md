@@ -1,20 +1,13 @@
-# porsurf.com - countdown site
+# porsurf.com
 
-A single static page: a countdown to registration opening, over the surf video on a loop. No
+Home page: the surf video on a loop, with the text animation from Claude Design on top. No
 build step, no dependencies. Everything is in this folder.
 
 | File | What |
 | --- | --- |
-| `index.html` | The page. Styles and the countdown script are inline. |
+| `index.html` | The page. The text animation goes inside `<main>`. |
 | `assets/hero.mp4` | Background video, already graded (see below). 32 s loop, no audio, 1.9 MB. |
-| `assets/poster.jpg` | Still frame shown before the video loads and for reduced-motion users. |
-
-## Countdown target
-
-`2026-10-06 12:00` Helsinki time (`+03:00`), from the Meet 1 notes (2026-09-24): "Countdown
-nollassa kun ilmo alkaa, eli 6.10 klo 12". Change `OPENS` in `index.html` if the date moves.
-When it hits zero the page shows "Ilmo on auki." - add the registration link there once it
-exists.
+| `assets/poster.jpg` | Still frame shown before the video loads. |
 
 ## Preview locally
 
@@ -48,7 +41,6 @@ rgbashift=rh=2:bh=-2,gblur=sigma=0.7,noise=alls=14:allf=t+u,vignette=angle=PI/5,
 
 What each step does: 24 fps for film cadence, darker and flatter contrast, desaturated, lifted
 warm blacks and dulled highlights (the faded tape look), a 2 px red/blue colour fringe, slight
-softness, moving grain and a vignette. On top of that, the page adds scanlines, a flicker, film
-grain and a small gate weave in CSS, plus a navy wash so the text stays readable.
+softness, moving grain and a vignette.
 
 To make the video darker or lighter, change `brightness` (e.g. `-0.08` for darker) and re-run.
