@@ -2,6 +2,8 @@
 
 Prepared 2026-09-21 for the organizer meet on 2026-09-24.
 
+**Status note, 2026-09-24:** This is the research snapshot prepared before the meeting. Its El Salvador/Lombok recommendation and 30-person assumptions were superseded for live planning by the organizer-agreed Bali/Guatemala/El Salvador shortlist and approximate 20-participant cap. See the [meeting context](meetings/2026/2026-09-24-porsurffi-vol-2-meet-1/context.md) and [current decision record](../decisions/0001-destination-2027.md).
+
 **Constraints used:** depart HEL between **2027-05-03 and 2027-05-10**, trip length **9–12 days**,
 **30 people**, all 18+. Level: beginner/intermediate, 0–50 sessions, **average ~7**. Wants waves
 with some size and push, not mush, not heavy. Outside Europe, not Sri Lanka, not Portugal.

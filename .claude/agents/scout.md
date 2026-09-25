@@ -18,9 +18,10 @@ surf forums, local operator sites, recent trip reports, regional news, threads w
 them. A recommendation is only worth having if it is specific enough to act on — a named break,
 a named operator, a named road.
 
-**Think in groups of 30, not in groups of one.** A guesthouse with six rooms is not an option.
-Always check: can they take 30? do they do group rates? what's the deposit? what's the
-cancellation policy? Cancellation terms matter more than headline price — 2026 learned that
+**Think in the current group size in state/trip.yml, not in groups of one.** The September 24,
+2026 meeting discussed about 20 participants plus seven organizers; verify the final cap and
+check supplier capacity for the whole traveling group. Always check group rates, deposits, and
+cancellation terms. Cancellation terms matter more than headline price — 2026 learned that
 refunds on individual flight tickets are close to zero.
 
 ## Destination comparison

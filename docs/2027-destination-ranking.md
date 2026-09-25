@@ -1,5 +1,7 @@
 # PorSurffi 2027 — scored ranking
 
+**Status note, 2026-09-24:** This scored ranking is a dated research snapshot, not the current shortlist. The organizers later agreed to compare Bali, Guatemala, and El Salvador. See the [meeting context](meetings/2026/2026-09-24-porsurffi-vol-2-meet-1/context.md).
+
 Companion to [`2027-destination-analysis.md`](2027-destination-analysis.md). Prepared 2026-09-21.
 
 ## How to read this

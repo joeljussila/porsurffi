@@ -8,14 +8,23 @@ trip:
   edition: 2  # 2026 was PoRa's first surf trip ever
 
   destination:
-    status: UNDECIDED
-    decision_due: 2026-09-24        # "porsurffi vol 2 meet 1", 18:00-18:45 EEST
+    status: SHORTLISTED_NOT_DECIDED
+    decision_due: "Next organizer meeting; exact date pending invite"
     analysis: docs/2027-destination-analysis.md
     ranking: docs/2027-destination-ranking.md   # scored, all options, with price ranges
-    recommended_shortlist: [el-salvador, lombok]
-    fallback: nicaragua
+    meeting_context: docs/meetings/2026/2026-09-24-porsurffi-vol-2-meet-1/context.md
+    recommended_shortlist: [bali, guatemala, el-salvador] # Agreed shortlist, not a final destination or ranking.
+    previous_analysis_recommendation: [el-salvador, lombok] # Analysis dated 2026-09-21; superseded as the live shortlist.
+    fallback: null
     eliminated:
       brazil-ne: "Pipa/Itacare peak Dec-Mar; May is shoulder + tail of the rainy season"
+      brazil-rio: "Safety concerns for a group of 25+ were raised at the 2026-09-24 meeting"
+      belize: "Meeting participants viewed it as expensive with poor rocky-beach surf; recheck if reconsidered"
+      costa-rica: "Meeting participants viewed it as too expensive and too touristy"
+      mexico: "Meeting participants said it was pricier than expected"
+      nicaragua: "Meeting participants cited flight cost and the hassle of a land border crossing"
+      peru: "Meeting participants cited cold water and wetsuit requirements"
+      philippines: "Meeting participants cited high cost"
       portugal:  "excluded by Joel; also weak in spring"
       sri-lanka: "excluded by Joel - not repeating 2026"
     not_recommended:
@@ -25,18 +34,17 @@ trip:
         swell and spring gives clean waist-to-head-high. Real objection is VARIANCE, not
         flatness - the famous wave will not be working.
       morocco: "May is the END of the season; Jun-Sep often flat. Too soft for this group."
-      guatemala: >
-        El Paredon is a hollow, fast beach break, head-high+ from May. Sand bottom is right
-        but the wave is higher-consequence than a point break for a group averaging 7 sessions.
-    still_open: [costa-rica, mexico, bali, peru, panama, rio-de-janeiro, java-batu-karas]
-    source: analysis 2026-09-21; candidate list from organizer chat 2026-09-17
+    prior_analysis_risks:
+      guatemala: "The 2026-09-21 analysis raised cost and wave-consequence concerns; organizers reopened it for the shortlist on 2026-09-24."
+    still_open: [bali, guatemala, el-salvador]
+    source: Granola meeting notes, 2026-09-24; destination remains undecided.
 
   dates:
     status: FLEXIBLE_BY_DESIGN
     depart_window: {earliest: 2027-05-03, latest: 2027-05-10}
     trip_length_days: {min: 9, max: 12}
-    note: Dates are deliberately unlocked so flight price can drive them.
-    source: Joel 2026-09-21
+    note: Depart right after Vappu (May Day); exact dates remain open and may flex with fares.
+    source: Joel 2026-09-21; organizer meeting notes, 2026-09-24
 
   surf_level:
     range_sessions: {min: 0, max: 50}
@@ -73,39 +81,60 @@ trip:
     source: Joel 2026-09-21
 
   headcount:
-    target: 30
-    organizers: 6
-    participant_places: 24
-    note: 2026 targeted 30 and landed 25. Filling the last five seats is an explicit goal.
-    source: Joel 2026-09-21
+    target: 27
+    organizers: 7
+    participant_places: 20
+    note: >
+      Approximate planning cap discussed on 2026-09-24: about 20 participants plus 7
+      organizers. Confirm the final cap before supplier quotes or budget commitments;
+      this supersedes the earlier 30-person planning target.
+    source: Granola meeting notes, 2026-09-24; approximate and pending final confirmation
 
   budget:
     all_in_per_participant: null    # UNDECIDED
     reference_2026: "1150-1250 EUR"
     flight_estimate_2027:
       individual: "850-900 EUR incl. bags (640 EUR + 20% risk premium)"
-      group_fare: "700-780 EUR for 30 seats, unquoted"
-      source: organizer chat 2026-09-17
+      group_fare: "Not planned as of 2026-09-24; the earlier 30-seat estimate was unquoted."
+      meeting_discussion: "About 780 EUR was mentioned for a one-connection Central America fare; route, date, baggage, and fare class need verification."
+      source: organizer chat 2026-09-17 and meeting notes 2026-09-24; estimates are not live quotes
     funding:
       prodeko_loan_2026: "20000 EUR, 3-month term"
       source: organizer chat 2025-12-02
 
-organizers:                          # from the 2026-09-24 calendar invite
+organizers:                          # Meeting roles discussed 2026-09-24; confirm the formal roster.
   - {name: Joel Jussila,       role: lead}
   - {name: Pekka Prieur,       role: finance}
   - {name: Oona Jokela,        role: communications}
   - {name: Viljami Meriläinen, role: sourcing / vendors}
   - {name: Lauri Pörsti,       role: production / promo video}
-  - {name: Julia Heikkilä,     role: joined 2026-09-18, 2026 participant}
-  # Meri Halme: 2026 organizer, not on the 2027 invite, finances unconfirmed
+  - {name: Julia Heikkilä,     role: marketing / visuals}
+  - {name: Meri Halme,         role: destination research / safety guide discussed}
 
-workstreams:
-  destination:   {owner: all,     status: blocked_on_decision, due: 2026-09-24}
-  promo_video:   {owner: Lauri,   status: in_progress,         due: 2026-10-01}
-  marketing:     {owner: Oona,    status: not_started,         due: 2026-10-01}
-  signup_queue:  {owner: Joel,    status: not_started,         due: "October 2026"}
-  group_fares:   {owner: Pekka,   status: awaiting_reply,      note: emailed a carrier group desk}
-  surf_camp:     {owner: Viljami, status: not_started}
+workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates need calendar confirmation.
+  destination:    {owner: all,     status: shortlist_agreed,           due: "next organizer meeting; date pending"}
+  promo_video:    {owner: Lauri,   status: in_progress,                 due: "Monday morning; exact date unconfirmed"}
+  marketing:      {owner: Julia,   status: planning,                    due: "before registration; date unconfirmed"}
+  communications: {owner: Oona,    status: teaser_sequence_planned}
+  signup_queue:   {owner: Lauri,   status: opening_planned,             due: "Monday 07:00; exact date unconfirmed"}
+  group_fares:    {owner: Joel,    status: individual_bookings_preferred}
+  surf_camp:      {owner: Viljami, status: quote_enquiries_sent_13_of_15, due: "review replies before next organizer meeting"}
+  website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
+  next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
+
+vendor_outreach:
+  surf_camps:
+    status: AWAITING_REPLIES
+    enquiry_basis: {guests: 30, check_in: 2027-05-03, check_out: 2027-05-12, nights: 9}
+    note: "These parameters were used for supplier quotes; headcount target and trip dates above remain provisional."
+    destinations: [guatemala, el-salvador, bali]
+    sent: 13
+    unsent: ["Qi-X / La Fábrica: no verified operator email", "Laola: no verified El Salvador email"]
+    replies: 0
+    quotes: 0
+    bookings: 0
+    detail: docs/surf-camp-shortlist-may-2027.md
+    source: "Viljami's user-supplied Gmail Sent-folder confirmation, 2026-09-24; not independently rechecked here"
 
 timeline_2026_for_reference:         # the pace that worked; see docs/2026-baseline.md
   announcement:   2025-11-13
