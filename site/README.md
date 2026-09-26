@@ -1,9 +1,10 @@
 # porsurf.com
 
 Home page from Claude Design: "The countdown has begun." types once per cycle, is erased, then
-a live countdown types in and stays for 10 seconds before the sequence repeats over an animated
-surf image. Reduced-motion visitors see the countdown without the typing loop. No build step,
-no dependencies. Everything is in this folder. The countdown currently targets 2026-10-06 at
+a live countdown types in and stays for 10 seconds before the sequence repeats over a looping
+surf video. The poster stays visible until video playback starts. Reduced-motion visitors see
+the countdown without the typing loop or video. No build step, no dependencies. Everything is
+in this folder. The countdown currently targets 2026-10-06 at
 12:00 Helsinki time, inherited from the original countdown page (`ee19d09`). Current planning
 notes leave the launch date unconfirmed and mention a different opening time; confirm with
 organizers before publishing.
@@ -11,9 +12,8 @@ organizers before publishing.
 | File | What |
 | --- | --- |
 | `index.html` | The page. Darkness over the background: `--dim` in `:root` (0 = none, 0.6 = very dark). |
-| `assets/hero-animation.webp` | 32 s looping animated WebP at 720 × 540 and 24 fps, converted from the source video. |
-| `assets/hero.mp4` | Original graded source video retained for future edits; not used on the page. |
-| `assets/poster.jpg` | Static background fallback, including when reduced motion is enabled. |
+| `assets/hero.mp4` | Graded 32 s background video. |
+| `assets/poster.jpg` | Still background until video playback starts, if autoplay is blocked, or when reduced motion is enabled. |
 | `favicon.png` | 64 × 64 wave-and-surfboard favicon in the Cyanotype palette. |
 
 ## Preview locally
