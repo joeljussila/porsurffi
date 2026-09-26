@@ -1,7 +1,10 @@
 # porsurf.com
 
-Home page from Claude Design: "The countdown has begun." typed, deleted and retyped over an
-animated surf image. No build step, no dependencies. Everything is in this folder.
+Home page from Claude Design: "The countdown has begun." types once, is erased, then a live
+countdown types in over an animated surf image. No build step, no dependencies. Everything is
+in this folder. The countdown currently targets 2026-10-06 at 12:00 Helsinki time, inherited
+from the original countdown page (`ee19d09`). Current planning notes leave the launch date
+unconfirmed and mention a different opening time; confirm with organizers before publishing.
 
 | File | What |
 | --- | --- |

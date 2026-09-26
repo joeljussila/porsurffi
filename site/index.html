@@ -83,6 +83,7 @@
     .slide:nth-child(1) { opacity: 1; }
     .bg-animation { display: none; }
     .grain { animation: none; }
+    .cursor { display: none; }
   }
 </style>
 </head>
@@ -99,25 +100,72 @@
 
 <script>
   (function () {
-    var text = 'The countdown has begun.';
+    // Original countdown page (ee19d09) used 2026-10-06 12:00 Helsinki time.
+    // Confirm this against the organizer's current launch plan before publishing.
+    var reveal = new Date('2026-10-06T12:00:00+03:00').getTime();
+    var intro = 'The countdown has begun.';
     var el = document.getElementById('tw');
-    var n = 0, deleting = false;
+    var heading = el.parentElement;
 
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { el.textContent = text; return; }
+    function pad(number) { return String(number).padStart(2, '0'); }
 
-    function tick() {
-      if (!deleting) {
-        n++;
-        el.textContent = text.slice(0, n);
-        if (n === text.length) { deleting = true; return setTimeout(tick, 3200); }
-        return setTimeout(tick, 85 + Math.random() * 70);
-      }
-      n--;
-      el.textContent = text.slice(0, n);
-      if (n === 0) { deleting = false; return setTimeout(tick, 900); }
-      setTimeout(tick, 38);
+    function countdown() {
+      var seconds = Math.max(0, Math.ceil((reveal - Date.now()) / 1000));
+      var days = Math.floor(seconds / 86400);
+      var hours = Math.floor(seconds % 86400 / 3600);
+      var minutes = Math.floor(seconds % 3600 / 60);
+      return days + 'd ' + pad(hours) + 'h ' + pad(minutes) + 'm ' + pad(seconds % 60) + 's';
     }
-    setTimeout(tick, 600);
+
+    function update() {
+      if (Date.now() >= reveal) {
+        el.textContent = 'The reveal is here.';
+        heading.setAttribute('aria-label', 'The reveal is here.');
+        return;
+      }
+      var remaining = countdown();
+      el.textContent = remaining;
+      heading.setAttribute('aria-label', 'Reveal on October 6, 2026 at 12:00 Helsinki time. ' + remaining + ' remaining.');
+      setTimeout(update, 1020 - Date.now() % 1000);
+    }
+
+    if (Date.now() >= reveal || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      update();
+      return;
+    }
+
+    function type(text, delay, done) {
+      var n = 0;
+      function next() {
+        el.textContent = text.slice(0, ++n);
+        if (n < text.length) setTimeout(next, delay);
+        else done();
+      }
+      next();
+    }
+
+    function erase(done) {
+      var n = el.textContent.length;
+      function next() {
+        el.textContent = intro.slice(0, --n);
+        if (n > 0) setTimeout(next, 38);
+        else done();
+      }
+      next();
+    }
+
+    setTimeout(function () {
+      type(intro, 105, function () {
+        setTimeout(function () {
+          erase(function () {
+            setTimeout(function () {
+              heading.setAttribute('aria-label', 'Countdown to the reveal');
+              type(countdown(), 85, update);
+            }, 450);
+          });
+        }, 3200);
+      });
+    }, 600);
   })();
 </script>
 </body>
