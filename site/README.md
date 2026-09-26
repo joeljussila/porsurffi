@@ -5,9 +5,11 @@ a live countdown types in and stays for 10 seconds before the sequence repeats o
 surf video. The poster stays visible until video playback starts. Reduced-motion visitors see
 the countdown without the typing loop or video. No build step, no dependencies. Everything is
 in this folder. The countdown currently targets 2026-10-06 at
-12:00 Helsinki time, inherited from the original countdown page (`ee19d09`). Current planning
-notes leave the launch date unconfirmed and mention a different opening time; confirm with
-organizers before publishing.
+12:00 Helsinki time. Viljami confirmed this as the `ilmo` opening and countdown-zero time on
+2026-09-26; the separate Q/signup is 2026-10-26 at 07:30. At zero, the current code only says
+“The reveal is here.” It does **not** reveal the destination or link to the `ilmo` yet. Arrange
+that handoff and test the live deployment before sending the countdown link. See
+[`docs/marketing-plan-2027.md`](../docs/marketing-plan-2027.md).
 
 | File | What |
 | --- | --- |

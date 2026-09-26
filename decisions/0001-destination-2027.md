@@ -1,7 +1,7 @@
 # 0001 — Destination for PorSurffi 2027
 
 - **Status:** OPEN
-- **Decide by:** next organizer meeting; the September 24 meeting said “same time next week,” but the calendar invite is pending
+- **Decide by:** 2026-10-04, deadline supplied by Viljami on 2026-09-26; the meeting date itself remains unconfirmed
 - **Owner:** all organizers
 
 ## Current status after the September 24 meeting
@@ -12,9 +12,11 @@ The September 21 analysis below recommended El Salvador and Lombok. That was the
 
 ## Why this is urgent
 
-Marketing starts early October and the signup queue runs that month. Neither can start without a
-destination. In 2026 the gap from announcement to flights booked was under four weeks, so the
-decision gates everything downstream.
+The cryptic countdown can start before the destination decision, but the 2026-10-06 `ilmo`
+announcement requires a chosen destination and a flight + surf-camp price estimate. The
+Q/signup follows on 2026-10-26 at 07:30 and the flight deadline is 2026-10-27. See
+[decision 0002](0002-2027-marketing-window.md). In 2026 the gap from announcement to flights
+booked was under four weeks, so the decision gates the public trip details.
 
 ## Candidates
 
@@ -63,7 +65,7 @@ an **ESTA per person** for Finnish passports; prefer Madrid, Bogotá or Panama r
 - Compare surf-camp quotes for Bali, Guatemala, and El Salvador; Viljami owns the review before the next meeting. On 2026-09-24, 13 of 15 supplier enquiries were reported sent for 30 guests and 3–12 May 2027; Qi-X and Laola were not emailed. No replies or quotes had been reported. These are enquiry parameters, not a final headcount or date decision. See the [camp shortlist and outreach status](../docs/surf-camp-shortlist-may-2027.md).
 - Research destination-specific flights and checked-bag pricing; Joel owns the comparison. Individual booking was preferred over a group booking.
 - Confirm the trip cap. The September 24 meeting discussed about 20 participants plus 7 organizers; the exact cap should be confirmed before budgets or supplier commitments.
-- Confirm the calendar date for the Monday 07:00 registration opening and for the next organizer meeting before scheduling or sending communications.
+- The `ilmo` opens 2026-10-06 12:00 and the separate Q/signup is 2026-10-26 07:30; confirm their exact mechanics and the next meeting date before writing practical instructions.
 - Verify the roughly 780 EUR one-connection fare discussion against live itineraries, including baggage, fare class, routing, and travel dates.
 
 ## Meeting evidence, 2026-09-24

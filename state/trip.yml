@@ -9,7 +9,7 @@ trip:
 
   destination:
     status: SHORTLISTED_NOT_DECIDED
-    decision_due: "Next organizer meeting; exact date pending invite"
+    decision_due: 2026-10-04
     analysis: docs/2027-destination-analysis.md
     ranking: docs/2027-destination-ranking.md   # scored, all options, with price ranges
     meeting_context: docs/meetings/2026/2026-09-24-porsurffi-vol-2-meet-1/context.md
@@ -37,7 +37,7 @@ trip:
     prior_analysis_risks:
       guatemala: "The 2026-09-21 analysis raised cost and wave-consequence concerns; organizers reopened it for the shortlist on 2026-09-24."
     still_open: [bali, guatemala, el-salvador]
-    source: Granola meeting notes, 2026-09-24; destination remains undecided.
+    source: Granola meeting notes, 2026-09-24; decision deadline supplied by Viljami, 2026-09-26; destination remains undecided.
 
   dates:
     status: FLEXIBLE_BY_DESIGN
@@ -111,16 +111,29 @@ organizers:                          # Meeting roles discussed 2026-09-24; confi
   - {name: Julia Heikkilä,     role: marketing / visuals}
   - {name: Meri Halme,         role: destination research / safety guide discussed}
 
-workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates need calendar confirmation.
-  destination:    {owner: all,     status: shortlist_agreed,           due: "next organizer meeting; date pending"}
-  promo_video:    {owner: Lauri,   status: in_progress,                 due: "Monday morning; exact date unconfirmed"}
-  marketing:      {owner: Julia,   status: planning,                    due: "before registration; date unconfirmed"}
-  communications: {owner: Oona,    status: teaser_sequence_planned}
-  signup_queue:   {owner: Lauri,   status: opening_planned,             due: "Monday 07:00; exact date unconfirmed"}
+workstreams: # Dates corrected by Viljami on 2026-09-26; delivery status is not implied.
+  destination:    {owner: all,     status: shortlist_agreed,           due: "2026-10-04"}
+  promo_video:    {owner: Lauri,   status: in_progress,                 due: "2026-10-05 10:00 Europe/Helsinki public release"}
+  marketing:      {owner: Julia,   status: planning,                    due: "push through 2026-10-26 07:30 Europe/Helsinki Q/signup"}
+  communications: {owner: Oona,    status: countdown_asap_then_video_then_ilmo}
+  signup_queue:   {owner: Lauri,   status: opening_planned,             due: "2026-10-26 07:30 Europe/Helsinki"}
   group_fares:    {owner: Joel,    status: individual_bookings_preferred}
   surf_camp:      {owner: Viljami, status: replies_6_of_13_quotes_2, due: "review replies before next organizer meeting"}
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
+
+marketing_2027:
+  status: TIMELINE_CONFIRMED_CONTENT_PENDING
+  window: "2026-09-26 through 2026-10-26 07:30 Europe/Helsinki"
+  early_teaser: {due: "ASAP", channel: "Prodeko TIEDOTUS", content: "cryptic message and countdown link"}
+  countdown: {target: "2026-10-06 12:00 Europe/Helsinki", page: "countdown only, no other trip details"}
+  promo_video: "2026-10-05 10:00 Europe/Helsinki"
+  ilmo_open: "2026-10-06 12:00 Europe/Helsinki"
+  price_estimate_required_before_ilmo: "flights + surf camp; estimate, not booked cost"
+  q_signup: "2026-10-26 07:30 Europe/Helsinki"
+  flights_deadline: "2026-10-27"
+  note: "Ilmo opening and Q/signup are distinct; exact mechanics of each still need clarification. Extra campaign posts in docs/marketing-plan-2027.md are proposals."
+  source: "Viljami's organizer deadlines supplied 2026-09-26"
 
 vendor_outreach:
   surf_camps:
