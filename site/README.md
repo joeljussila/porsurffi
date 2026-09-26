@@ -1,11 +1,11 @@
 # porsurf.com
 
-Home page: the surf video on a loop, with the text animation from Claude Design on top. No
-build step, no dependencies. Everything is in this folder.
+Home page from Claude Design: "The countdown has begun." typed, deleted and retyped over the
+surf video on a loop. No build step, no dependencies. Everything is in this folder.
 
 | File | What |
 | --- | --- |
-| `index.html` | The page. The text animation goes inside `<main>`. |
+| `index.html` | The page. Darkness over the video: `--dim` in `:root` (0 = none, 0.6 = very dark). |
 | `assets/hero.mp4` | Background video, already graded (see below). 32 s loop, no audio, 1.9 MB. |
 | `assets/poster.jpg` | Still frame shown before the video loads. |
 
