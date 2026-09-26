@@ -106,6 +106,7 @@
     var intro = 'The countdown has begun.';
     var el = document.getElementById('tw');
     var heading = el.parentElement;
+    var ticker, hold;
 
     function pad(number) { return String(number).padStart(2, '0'); }
 
@@ -119,6 +120,8 @@
 
     function update() {
       if (Date.now() >= reveal) {
+        clearTimeout(ticker);
+        clearTimeout(hold);
         el.textContent = 'The reveal is here.';
         heading.setAttribute('aria-label', 'The reveal is here.');
         return;
@@ -126,7 +129,7 @@
       var remaining = countdown();
       el.textContent = remaining;
       heading.setAttribute('aria-label', 'Reveal on October 6, 2026 at 12:00 Helsinki time. ' + remaining + ' remaining.');
-      setTimeout(update, 1020 - Date.now() % 1000);
+      ticker = setTimeout(update, 1020 - Date.now() % 1000);
     }
 
     if (Date.now() >= reveal || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -146,26 +149,38 @@
 
     function erase(done) {
       var n = el.textContent.length;
+      var text = el.textContent;
       function next() {
-        el.textContent = intro.slice(0, --n);
+        el.textContent = text.slice(0, --n);
         if (n > 0) setTimeout(next, 38);
         else done();
       }
       next();
     }
 
-    setTimeout(function () {
+    function cycle() {
+      if (Date.now() >= reveal) return update();
+      heading.setAttribute('aria-label', intro);
       type(intro, 105, function () {
         setTimeout(function () {
           erase(function () {
             setTimeout(function () {
+              if (Date.now() >= reveal) return update();
               heading.setAttribute('aria-label', 'Countdown to the reveal');
-              type(countdown(), 85, update);
+              type(countdown(), 85, function () {
+                update();
+                if (Date.now() >= reveal) return;
+                hold = setTimeout(function () {
+                  clearTimeout(ticker);
+                  erase(function () { setTimeout(cycle, 450); });
+                }, 10000);
+              });
             }, 450);
           });
         }, 3200);
       });
-    }, 600);
+    }
+    setTimeout(cycle, 600);
   })();
 </script>
 </body>

@@ -1,10 +1,12 @@
 # porsurf.com
 
-Home page from Claude Design: "The countdown has begun." types once, is erased, then a live
-countdown types in over an animated surf image. No build step, no dependencies. Everything is
-in this folder. The countdown currently targets 2026-10-06 at 12:00 Helsinki time, inherited
-from the original countdown page (`ee19d09`). Current planning notes leave the launch date
-unconfirmed and mention a different opening time; confirm with organizers before publishing.
+Home page from Claude Design: "The countdown has begun." types once per cycle, is erased, then
+a live countdown types in and stays for 10 seconds before the sequence repeats over an animated
+surf image. Reduced-motion visitors see the countdown without the typing loop. No build step,
+no dependencies. Everything is in this folder. The countdown currently targets 2026-10-06 at
+12:00 Helsinki time, inherited from the original countdown page (`ee19d09`). Current planning
+notes leave the launch date unconfirmed and mention a different opening time; confirm with
+organizers before publishing.
 
 | File | What |
 | --- | --- |
