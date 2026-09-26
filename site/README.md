@@ -8,6 +8,7 @@ surf video on a loop. No build step, no dependencies. Everything is in this fold
 | `index.html` | The page. Darkness over the video: `--dim` in `:root` (0 = none, 0.6 = very dark). |
 | `assets/hero.mp4` | Background video, already graded (see below). 32 s seamless loop, no audio, 1.9 MB. |
 | `assets/poster.jpg` | Still frame shown before the video loads. |
+| `favicon.png` | 64 × 64 wave-and-surfboard favicon in the Cyanotype palette. |
 
 ## Preview locally
 
