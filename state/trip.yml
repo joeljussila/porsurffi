@@ -118,23 +118,29 @@ workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates nee
   communications: {owner: Oona,    status: teaser_sequence_planned}
   signup_queue:   {owner: Lauri,   status: opening_planned,             due: "Monday 07:00; exact date unconfirmed"}
   group_fares:    {owner: Joel,    status: individual_bookings_preferred}
-  surf_camp:      {owner: Viljami, status: quote_enquiries_sent_13_of_15, due: "review replies before next organizer meeting"}
+  surf_camp:      {owner: Viljami, status: replies_6_of_13_quotes_2, due: "review replies before next organizer meeting"}
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
 
 vendor_outreach:
   surf_camps:
-    status: AWAITING_REPLIES
+    status: REPLIES_IN_PROGRESS
     enquiry_basis: {guests: 30, check_in: 2027-05-03, check_out: 2027-05-12, nights: 9}
     note: "These parameters were used for supplier quotes; headcount target and trip dates above remain provisional."
     destinations: [guatemala, el-salvador, bali]
     sent: 13
     unsent: ["Qi-X / La Fábrica: no verified operator email", "Laola: no verified El Salvador email"]
-    replies: 0
-    quotes: 0
+    replies: 6        # Mondo, Kima, Mellow, Swell, Green Belly, Lapoint (holding reply)
+    quotes: 2         # Mondo and Kima gave 3-12 May group prices; Mellow quote pending
+    no_reply_yet: [cocori, kaana, la-guitarra, tuncoo, elsewhere, mojosurf, wavehouse]
+    unavailable: {swell: "3-12 May taken; offered 2027-05-12 to 05-23 instead"}
+    follow_ups_sent:
+      mellow: "2026-09-26: answered their questions (group profile, surf level, English, GUA transfer, bed count)"
+      swell: "2026-09-26: said 12-23 May is likely too late; will recontact if dates move"
     bookings: 0
+    deposits_paid: 0
     detail: docs/surf-camp-shortlist-may-2027.md
-    source: "Viljami's user-supplied Gmail Sent-folder confirmation, 2026-09-24; not independently rechecked here"
+    source: "Viljami's Gmail inbox and Sent folder, checked 2026-09-26; quotes summarised in the detail doc"
 
 timeline_2026_for_reference:         # the pace that worked; see docs/2026-baseline.md
   announcement:   2025-11-13
