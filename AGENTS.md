@@ -45,12 +45,12 @@ If you encounter a credential in chat or files, do not echo it; alert the organi
 
 ## Finish the work, including the Git handoff
 
-Unless the organizer explicitly asks for a draft without publication, finish each delivered repo change by committing **and pushing** it to the appropriate remote branch. Do not leave completed work only on one laptop.
+Unless the organizer explicitly asks for a draft without publication, **commit and integrate all completed repo work into `master`, then push `origin/master`**. Do the same when the organizer asks to save work in progress. If working on another branch or a detached worktree, safely bring that commit into `master` before handoff; do not leave the result only on a feature branch or one laptop. A request to save work does not waive the privacy or conflict checks below.
 
 1. Review the changed files, check any relevant links/formatting or tests, and run `git diff --check`. Check that facts are sourced and no private data is included.
 2. Stage only the files for this request by explicit path, such as `git add AGENTS.md CLAUDE.md`. Never use `git add -A` or commit unrelated changes; this checkout may contain private, untracked exports or another person's draft.
 3. Review `git diff --cached` and `git status`, then make a descriptive commit.
-4. Fetch/reconcile new remote changes if needed and push the committed work to the branch's upstream (normally `origin/master`). If direct push is unavailable, push a suitable branch and give the organizer the PR/review path. If access or a conflict blocks publication, say clearly what remains unpushed and why.
+4. Fetch/reconcile new remote changes if needed, integrate the work into `master`, and push `origin/master`. If direct push is unavailable, push a suitable branch and give the organizer the PR/review path as a fallback, clearly stating that `master` is not yet updated. If access or a conflict blocks publication, say clearly what remains unpushed and why.
 5. Verify the push succeeded. Tell the organizer, briefly, what changed, where it lives, what still needs their decision, and whether the shared remote is updated.
 
 Never include someone else's uncommitted or untracked work in your commit without their explicit direction. Preserve it when switching branches or syncing.
