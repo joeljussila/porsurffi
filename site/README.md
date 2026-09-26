@@ -1,13 +1,14 @@
 # porsurf.com
 
-Home page from Claude Design: "The countdown has begun." typed, deleted and retyped over the
-surf video on a loop. No build step, no dependencies. Everything is in this folder.
+Home page from Claude Design: "The countdown has begun." typed, deleted and retyped over an
+animated surf image. No build step, no dependencies. Everything is in this folder.
 
 | File | What |
 | --- | --- |
-| `index.html` | The page. Darkness over the video: `--dim` in `:root` (0 = none, 0.6 = very dark). |
-| `assets/hero.mp4` | Background video, already graded (see below). 32 s seamless loop, no audio, 1.9 MB. |
-| `assets/poster.jpg` | Still frame shown before the video loads. |
+| `index.html` | The page. Darkness over the background: `--dim` in `:root` (0 = none, 0.6 = very dark). |
+| `assets/hero-animation.webp` | 32 s looping animated WebP at 720 × 540 and 24 fps, converted from the source video. |
+| `assets/hero.mp4` | Original graded source video retained for future edits; not used on the page. |
+| `assets/poster.jpg` | Static background fallback, including when reduced motion is enabled. |
 | `favicon.png` | 64 × 64 wave-and-surfboard favicon in the Cyanotype palette. |
 
 ## Preview locally
@@ -31,7 +32,7 @@ Any static host works the same way (Netlify, Cloudflare Pages, GitHub Pages): pu
 
 ## The 1970s look
 
-The graded video is baked in with ffmpeg, so every browser shows the same result:
+The graded source video is baked in with ffmpeg, so every browser shows the same result:
 
 ```bash
 ffmpeg -i source.mp4 -an -vf "fps=24,eq=brightness=-0.03:contrast=0.82:saturation=0.6,\
