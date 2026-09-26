@@ -78,6 +78,7 @@ trip:
       Locally run is a plus. Must not be a scam. If nothing suitable exists,
       list every option so the team can vet manually.
     all_participants_18_plus: true
+    rooms: "Ask camps for rooms for 30 people; bed layout is not a concern (Viljami, 2026-09-26)"
     source: Joel 2026-09-21
 
   headcount:
