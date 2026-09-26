@@ -84,7 +84,7 @@
 </head>
 <body>
   <main class="stage">
-    <video class="bg-video" src="assets/hero.mp4" poster="assets/poster.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
+    <video class="bg-video" src="assets/hero.mp4" poster="assets/poster.jpg" autoplay muted loop playsinline webkit-playsinline preload="auto" aria-hidden="true"></video>
     <div class="tint"></div>
     <div class="shade"></div>
     <div class="grain"></div>
@@ -95,9 +95,26 @@
 
 <script>
   (function () {
+    var video = document.querySelector('.bg-video');
     var text = 'The countdown has begun.';
     var el = document.getElementById('tw');
     var n = 0, deleting = false;
+
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    function tryAutoplay() {
+      if (document.visibilityState === 'hidden' || !video.paused) return;
+      var playback = video.play();
+      if (playback && typeof playback.catch === 'function') playback.catch(function () {});
+    }
+
+    video.addEventListener('loadedmetadata', tryAutoplay);
+    video.addEventListener('canplay', tryAutoplay, { once: true });
+    window.addEventListener('pageshow', tryAutoplay);
+    document.addEventListener('visibilitychange', tryAutoplay);
+    tryAutoplay();
 
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { el.textContent = text; return; }
 
