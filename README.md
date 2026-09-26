@@ -17,6 +17,7 @@ they survive the organizer team turning over each year — which it does, every 
 | [`docs/2026-baseline.md`](docs/2026-baseline.md) | What the 2026 trip actually cost and where it went wrong. |
 | [`docs/channels.md`](docs/channels.md) | The four Telegram channels and what belongs in each. |
 | [`decisions/`](decisions/) | One file per real decision, including why the alternatives lost. |
+| [`site/`](site/) | The porsurf.com countdown page. Static, deploy the folder as-is. |
 
 ## The agents
 
