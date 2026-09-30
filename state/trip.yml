@@ -119,7 +119,7 @@ workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates nee
   communications: {owner: Oona,    status: teaser_sequence_planned}
   signup_queue:   {owner: Lauri,   status: opening_planned,             due: "Monday 07:00; exact date unconfirmed"}
   group_fares:    {owner: Joel,    status: individual_bookings_preferred}
-  surf_camp:      {owner: Viljami, status: replies_6_of_13_quotes_2, due: "review replies before next organizer meeting"}
+  surf_camp:      {owner: Viljami, status: replies_8_of_13_priced_offers_3, due: "collect follow-ups in early October; exact date open"}
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
 
@@ -131,17 +131,22 @@ vendor_outreach:
     destinations: [guatemala, el-salvador, bali]
     sent: 13
     unsent: ["Qi-X / La Fábrica: no verified operator email", "Laola: no verified El Salvador email"]
-    replies: 6        # Mondo, Kima, Mellow, Swell, Green Belly, Lapoint (holding reply)
-    quotes: 2         # Mondo and Kima gave 3-12 May group prices; Mellow quote pending
-    no_reply_yet: [cocori, kaana, la-guitarra, tuncoo, elsewhere, mojosurf, wavehouse]
+    replies: 8        # Mondo, Kima, WaveHouse, Cocori, Mellow, Swell, Green Belly, Lapoint (holding reply)
+    quotes: 3         # Indicative priced offers: Mondo, Kima, WaveHouse; not held or accepted
+    no_reply_yet: [kaana, la-guitarra, tuncoo, elsewhere, mojosurf]
     unavailable: {swell: "3-12 May taken; offered 2027-05-12 to 05-23 instead"}
     follow_ups_sent:
       mellow: "2026-09-26: answered their questions (group profile, surf level, English, GUA transfer, bed count)"
       swell: "2026-09-26: said 12-23 May is likely too late; will recontact if dates move"
+      cocori: "2026-09-30: chased full quote and asked about room capacity, big swell and cancellation"
+      mondo: "2026-09-30: asked about bed sharing, cancellation and smaller group terms"
+      kima: "2026-09-30: asked about nearer beginner lessons, staged payment and group discount"
+      wavehouse: "2026-09-30: asked about capacity, room mix, lessons, transfers and taxes"
+    decision_pending: "Green Belly has only 27 beds; decide whether to request a 27-person quote or decline."
     bookings: 0
     deposits_paid: 0
     detail: docs/surf-camp-shortlist-may-2027.md
-    source: "Viljami's Gmail inbox and Sent folder, checked 2026-09-26; quotes summarised in the detail doc"
+    source: "Viljami's camp-outreach summary supplied 2026-09-30; earlier Gmail check 2026-09-26; terms and caveats in detail doc"
 
 timeline_2026_for_reference:         # the pace that worked; see docs/2026-baseline.md
   announcement:   2025-11-13
