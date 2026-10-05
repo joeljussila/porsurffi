@@ -1,15 +1,29 @@
 # porsurf.com
 
-Reveal page, live from 2026-10-06 12:00 Helsinki time. "PorSurffi 2027" and "El Salvador" are
-typed, deleted and retyped over five pictures. Every 7 seconds the next picture dissolves in on
-top of the previous one (2 s dissolve, 5 s hold). The countdown page this replaces is in git
-history (`7a6b4f3`). No build step, no dependencies. Everything is in this folder.
+Two-stage site: the original countdown and surf video run until **2026-10-06 at 12:00 noon
+Helsinki time**, then automatically open Joel's reveal page. The deadline was confirmed by
+Viljami in the organizer's Codex chat on 2026-10-06 and is configured once in `reveal-gate.js`:
+`2026-10-06T12:00:00+03:00` (09:00 UTC; Helsinki is on EEST, not winter EET).
+
+Before the deadline, "The countdown has begun." and the live countdown alternate in the
+original typewriter loop. The poster is the fallback if video autoplay is blocked. After the
+deadline, "PorSurffi 2027" and "El Salvador" are typed, deleted and retyped over Joel's five
+pictures. Every 7 seconds the next picture dissolves in (2 s dissolve, 5 s hold). Returning to
+an inactive tab rechecks the deadline; new visitors after noon go straight to the reveal.
+Reduced-motion visitors see a static countdown/poster, then a static reveal photo and title.
+No build step, no dependencies. Everything is in this folder.
+
+This is a client-clock-based presentation gate, not a secret-content access control: visitors
+can open `reveal.html` directly. The reveal artwork is from Joel's `reveal` branch (`8881a00`);
+its destination text does not independently confirm a supplier booking or trip-state decision.
 
 | File | What |
 | --- | --- |
-| `index.html` | The page. Texts: `texts` in the script. Darkness over the pictures: `--dim` in `:root`. |
-| `assets/pic-1.jpg` ... `pic-5.jpg` | The pictures, already graded to the 1970s look (see below). To change what stays in view when a screen crops one, edit its `object-position` in `index.html`. |
-| `assets/hero.mp4`, `assets/poster.jpg` | Countdown page video and still. Not used by the reveal page. |
+| `index.html` | Original countdown page and looping surf video. |
+| `reveal-gate.js` | Shared deadline and automatic transition, independent of the typing loop. |
+| `reveal.html` | Joel's reveal. Texts: `texts` in the script. Darkness: `--dim` in `:root`. |
+| `assets/pic-1.jpg` ... `pic-5.jpg` | Joel's graded pictures. Cropping: `object-position` in `reveal.html`. |
+| `assets/hero.mp4`, `assets/poster.jpg` | Countdown video and poster fallback. |
 | `favicon.png` | 64 x 64 wave-and-surfboard favicon in the Cyanotype palette. |
 
 ## Grading the pictures
@@ -31,6 +45,9 @@ cd site && python3 -m http.server 8000
 ```
 
 ## Deploy to porsurf.com (Vercel)
+
+Run the dependency-free timing tests from the repository root: `node --test site/tests/*.test.cjs`.
+They cover the exact boundary, different visitor timezones, inactive-tab return, and nested hosting paths.
 
 1. Vercel -> Add New -> Project -> import `joeljussila/porsurffi`.
 2. Framework preset: **Other**. Root directory: **`site`**. No build command, no output

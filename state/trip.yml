@@ -121,6 +121,13 @@ workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates nee
   group_fares:    {owner: Joel,    status: individual_bookings_preferred}
   surf_camp:      {owner: Viljami, status: replies_8_of_13_priced_offers_3, due: "collect follow-ups in early October; exact date open"}
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
+  website_reveal:
+    owner: Viljami
+    status: timing_confirmed
+    due: "2026-10-06T12:00:00+03:00"
+    timezone: Europe/Helsinki
+    decision: decisions/0002-website-reveal-timing.md
+    source: "Viljami's Codex request and clarification, 2026-10-06: 12 pm, midday Helsinki time"
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
 
 vendor_outreach:
