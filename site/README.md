@@ -1,20 +1,27 @@
 # porsurf.com
 
-Home page from Claude Design: "The countdown has begun." types once per cycle, is erased, then
-a live countdown types in and stays for 10 seconds before the sequence repeats over a looping
-surf video. The poster stays visible until video playback starts. Reduced-motion visitors see
-the countdown without the typing loop or video. No build step, no dependencies. Everything is
-in this folder. The countdown currently targets 2026-10-06 at
-12:00 Helsinki time, inherited from the original countdown page (`ee19d09`). Current planning
-notes leave the launch date unconfirmed and mention a different opening time; confirm with
-organizers before publishing.
+Reveal page, live from 2026-10-06 12:00 Helsinki time. "PorSurffi 2027" and "El Salvador" are
+typed, deleted and retyped over five pictures. Every 7 seconds the next picture dissolves in on
+top of the previous one (2 s dissolve, 5 s hold). The countdown page this replaces is in git
+history (`7a6b4f3`). No build step, no dependencies. Everything is in this folder.
 
 | File | What |
 | --- | --- |
-| `index.html` | The page. Darkness over the background: `--dim` in `:root` (0 = none, 0.6 = very dark). |
-| `assets/hero.mp4` | Graded 32 s background video. |
-| `assets/poster.jpg` | Still background until video playback starts, if autoplay is blocked, or when reduced motion is enabled. |
-| `favicon.png` | 64 × 64 wave-and-surfboard favicon in the Cyanotype palette. |
+| `index.html` | The page. Texts: `texts` in the script. Darkness over the pictures: `--dim` in `:root`. |
+| `assets/pic-1.jpg` ... `pic-5.jpg` | The pictures, already graded to the 1970s look (see below). To change what stays in view when a screen crops one, edit its `object-position` in `index.html`. |
+| `assets/hero.mp4`, `assets/poster.jpg` | Countdown page video and still. Not used by the reveal page. |
+| `favicon.png` | 64 x 64 wave-and-surfboard favicon in the Cyanotype palette. |
+
+## Grading the pictures
+
+Same look as the video, with more colour kept:
+
+```bash
+ffmpeg -i source.jpg -vf "scale='if(gt(iw,ih),min(1800,iw*2),-2)':'if(gt(iw,ih),-2,min(1800,ih*2))':flags=lanczos,\
+eq=brightness=-0.02:contrast=0.9:saturation=0.85,\
+curves=r='0/0.08 0.5/0.52 1/0.93':g='0/0.06 0.5/0.48 1/0.88':b='0/0.05 0.5/0.43 1/0.80',\
+rgbashift=rh=2:bh=-2,gblur=sigma=0.6,noise=alls=12:allf=u,vignette=angle=PI/5" -q:v 4 assets/pic-N.jpg
+```
 
 ## Preview locally
 
