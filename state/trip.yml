@@ -123,11 +123,18 @@ workstreams: # Status from Granola meeting notes, 2026-09-24; relative dates nee
   website_domain: {owner: Viljami, status: planned,                     due: "before registration"}
   website_reveal:
     owner: Viljami
-    status: timing_confirmed
+    status: deployed_and_verified
     due: "2026-10-06T12:00:00+03:00"
     timezone: Europe/Helsinki
     decision: decisions/0002-website-reveal-timing.md
     source: "Viljami's Codex request and clarification, 2026-10-06: 12 pm, midday Helsinki time"
+    deployment:
+      domain: porsurf.com
+      date: 2026-10-06
+      code_commit: cfe9e37
+      id: dpl_HpaK2ZaSF4XaXHioC69E2NcS24QF
+      verification: "Seven timing tests and desktop/mobile browser checks passed locally and against production; normal/reduced motion, noon transition, late arrivals, blocked-autoplay fallback."
+      source: "Vercel production deployment and Playwright verification, 2026-10-06; deploy explicitly requested by Viljami"
   next_meeting:   {owner: Joel,    status: invite_pending,              due: "next week"}
 
 vendor_outreach:

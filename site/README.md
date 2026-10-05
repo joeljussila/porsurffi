@@ -49,6 +49,13 @@ cd site && python3 -m http.server 8000
 Run the dependency-free timing tests from the repository root: `node --test site/tests/*.test.cjs`.
 They cover the exact boundary, different visitor timezones, inactive-tab return, and nested hosting paths.
 
+Production deployment verified 2026-10-06: code commit `cfe9e37`, Vercel deployment
+`dpl_HpaK2ZaSF4XaXHioC69E2NcS24QF`, serving `porsurf.com` and `www.porsurf.com`.
+Seven timing tests passed. `tests/browser-smoke.cjs` also passed locally and against production
+at desktop (1440 px) and mobile (390 px) widths, with normal/reduced motion, the noon transition,
+late arrivals, and blocked-autoplay poster fallback. This optional browser test requires
+Playwright via `NODE_PATH` and may use `CHROMIUM_PATH`; set `SITE_URL` to test a deployment.
+
 1. Vercel -> Add New -> Project -> import `joeljussila/porsurffi`.
 2. Framework preset: **Other**. Root directory: **`site`**. No build command, no output
    directory.
